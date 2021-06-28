@@ -1,0 +1,25 @@
+{
+    "id": "B573D112",
+    "path": "~/Documents/David_research/ETL-MCHI/R/CreateCDM.R",
+    "project_path": "R/CreateCDM.R",
+    "type": "r_source",
+    "hash": "0",
+    "contents": "",
+    "dirty": true,
+    "created": 1624904271268.0,
+    "source_on_save": false,
+    "relative_order": 2,
+    "properties": {
+        "tempName": "Untitled1",
+        "cursorPosition": "36,0",
+        "scrollLine": "22"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1624920151,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1624921853832,
+    "read_only": false,
+    "read_only_alternatives": []
+}

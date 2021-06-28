@@ -1,0 +1,45 @@
+getSQL <- function(filepath){
+	con = file(filepath, "r")
+	sql.string <- ""
+
+	while (TRUE){
+		line <- readLines(con, n = 1)
+
+		if ( length(line) == 0 ){
+			break
+		}
+
+		line <- gsub("\\t", " ", line)
+
+		if(grepl("--",line) == TRUE){
+			line <- paste(sub("--","/*",line),"*/")
+		}
+
+		sql.string <- paste(sql.string, line)
+
+	}
+
+	close(con)
+	return(sql.string)
+}
+CreateCDM= function(connectionDetails){
+# get SQL scripts for building CDM
+filepath = '/Users/daweizhou/Documents/David_research/ETL-MCHI/SQL/test.sql'
+ddl=getSQL(filepath)
+
+rdbms <- tolower(connectionDetails$dbms)
+tableDDL <-  SqlRender::loadRenderTranslateSql(
+	sqlFilename = "../CDM_v6_ddl.sql",
+	packageName = "ETL-MCHI",
+	dbms = connectionDetails$dbms,
+	cdm_schema = cdmSchema
+)
+#SqlRender::translate(sql = ddl, targetDialect = rdbms,cdm_schema = cdmSchema)
+
+	
+# execute sql query
+conn <- DatabaseConnector::connect(connectionDetails)
+DatabaseConnector::executeSql(conn, tableDDL)
+on.exit(DatabaseConnector::disconnect(conn))
+
+}

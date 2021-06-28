@@ -1,0 +1,24 @@
+{
+    "id": "836AC51E",
+    "path": "~/Documents/David_research/ETL-MCHI/run.R",
+    "project_path": "run.R",
+    "type": "r_source",
+    "hash": "0",
+    "contents": "",
+    "dirty": true,
+    "created": 1624904245903.0,
+    "source_on_save": false,
+    "relative_order": 1,
+    "properties": {
+        "cursorPosition": "1,0",
+        "scrollLine": "0"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1624919839,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1624921544728,
+    "read_only": false,
+    "read_only_alternatives": []
+}

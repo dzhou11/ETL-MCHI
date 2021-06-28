@@ -1,0 +1,25 @@
+{
+    "id": "B86CE7B6",
+    "path": "~/Documents/David_research/ETL-MCHI/R/load_events.R",
+    "project_path": "R/load_events.R",
+    "type": "r_source",
+    "hash": "0",
+    "contents": "",
+    "dirty": true,
+    "created": 1624919845650.0,
+    "source_on_save": false,
+    "relative_order": 5,
+    "properties": {
+        "tempName": "Untitled1",
+        "cursorPosition": "18,32",
+        "scrollLine": "0"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1624919928,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1624920607316,
+    "read_only": false,
+    "read_only_alternatives": []
+}

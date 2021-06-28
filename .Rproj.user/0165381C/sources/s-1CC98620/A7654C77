@@ -1,0 +1,24 @@
+{
+    "id": "A7654C77",
+    "path": "~/Documents/David_research/ETL-MCHI/SQL/CDM_v6_ddl.sql",
+    "project_path": "SQL/CDM_v6_ddl.sql",
+    "type": "sql",
+    "hash": "0",
+    "contents": "",
+    "dirty": false,
+    "created": 1624915491961.0,
+    "source_on_save": false,
+    "relative_order": 3,
+    "properties": {
+        "cursorPosition": "120,0",
+        "scrollLine": "119"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1624917736,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1624917736890,
+    "read_only": false,
+    "read_only_alternatives": []
+}
